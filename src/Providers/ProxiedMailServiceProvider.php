@@ -5,10 +5,6 @@ namespace ProxiedMail\Client\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-/**
- * Class AbrouterServiceProvider
- * @package Abrouter\LaravelClient
- */
 class ProxiedMailServiceProvider extends ServiceProvider
 {
     public function boot(): void

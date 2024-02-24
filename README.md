@@ -8,7 +8,7 @@ You're welcome to [visit the docs](http://docs.proxiedmail.com/).
 
 # What is the ProxiedMail ? 
 
-[ABRouter](https://proxiedmail.com) is a tool that brings the email experience to a new level because it was built around the privacy first concept that enhances using a unique email each time which makes it a second password, but also allows you more control over your correspondence.
+[ProxiedMail](https://proxiedmail.com) is a tool that brings the email experience to a new level because it was built around the privacy first concept that enhances using a unique email each time which makes it a second password, but also allows you more control over your correspondence.
 Additionally, it gives you the advantage of moving to another email provider just in a few seconds.
 Because we have this kind of system we also aim to bring more into the experience of development using emails.
 
@@ -30,7 +30,7 @@ Because we have this kind of system we also aim to bring more into the experienc
 Via composer
 
 ``` bash
-$ composer require abrouter/laravel-abtest
+$ composer require proxiedmail/laravel-receive-email
 ```
 
 ## Setting service provider
@@ -48,14 +48,11 @@ If Laravel package auto-discovery is disabled, add service providers manually to
 php artisan vendor:publish --tag=proxiedmail
 ```
 
-### Configure ABRouter client:
+### Configure ProxiedMail client:
 
 Put your ProxiedMail API token in /config/proxiedmail.php. You can find this token in [ProxiedMail API Settings](https://proxiedmail.com/en/settings).
 
 ```php
-
-use Abrouter\LaravelClient\Bridge\KvStorage;
-use Abrouter\LaravelClient\Bridge\ParallelRunning\TaskManager;
 
 return [
     'apiToken' => 'YOUR API TOKEN',
@@ -158,9 +155,6 @@ class ExampleController
 ### Managing UI
 
 You can create find the UI on [ProxiedMail](https://proxiedmail.com/) to manage your domains, emails, and webhooks.
-
-## Example
-You can get an dockerized usage example by the following link: (https://github.com/abrouter/laravel-example)
 
 ## :wrench: Contributing
 
