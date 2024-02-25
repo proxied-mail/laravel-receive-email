@@ -172,4 +172,5 @@ For any questions please contact laraclient@pxdmail.com
 
 Also please check out the article [how to receive emails in Laravel in our blog](https://proxiedmail.com/en/blog/how-to-receive-email-with-laravel).
 If you're interested in receiving emails in PHP use the [library for pure PHP](https://github.com/proxied-mail/proxiedmail-php-client).
+
 Article: [how to receive emails in PHP](https://dev.to/yatsenkolesh/how-to-receive-email-with-php-3k21)
