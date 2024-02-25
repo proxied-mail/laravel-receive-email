@@ -1,0 +1,29 @@
+{
+    "name": "proxiedmail/laravel-receive-email",
+    "type": "library",
+    "description": "Laravel Receive Email via ProxiedMail library allows creating proxy-emails and receiving emails via webhooks, Rest API.",
+    "license": "LGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "ProxiedMail\\Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Yatsenko",
+            "email": "laraclient@pxdmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "laravel/framework": "^5.3 || ^6.0 || ^7.0 || ^8.0",
+        "proxiedmail/php-client": "^0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProxiedMailServiceProvider"
+            ]
+        }
+    }
+}
